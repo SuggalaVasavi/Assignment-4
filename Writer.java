@@ -7,7 +7,7 @@ import java.io.OutputStreamWriter;
 import java.nio.channels.FileLock;
 import java.nio.channels.OverlappingFileLockException;
 
-public class writer{ 
+public class Writer{ 
 public  static void main(String args[]){
 	byte[] bytes={'e','g','d','e'};
 	write(bytes);
